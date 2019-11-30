@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const router = require('./router');
 
 // db
-mongoose.connect('mongodb://localhost:auth/auth');
+mongoose.connect('mongodb://localhost/auth');
 
 // app
 const app = express();
